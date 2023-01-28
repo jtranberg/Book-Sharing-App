@@ -1,0 +1,22 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "booksharingapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtranberg/Book-Sharing-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtranberg/Book-Sharing-App/issues"
+  },
+  "homepage": "https://github.com/jtranberg/Book-Sharing-App#readme",
+  "dependencies": {
+    "docker-compose": "^0.23.18"
+  }
+}
