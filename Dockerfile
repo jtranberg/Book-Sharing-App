@@ -1,10 +1,9 @@
-FROM openjdk
-#create new app directory
-RUN mkdir /app
-#copy files from host machine
-COPY /main/java/org.app/ /app
+FROM openjdk:19
 
-#directory for exicuting future commands
+RUN  mkdir /app
+
+COPY src/main/java/org/ /app
+
 WORKDIR /app
-#run main class
+
 CMD java Main
